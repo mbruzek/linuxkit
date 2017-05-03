@@ -112,7 +112,7 @@ services:
     rootfsPropagation: shared
 files:
   - path: root/.ssh/authorized_keys
-    contents: '# Your ssh key goes here'
+    contents: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDDRrhftGaG7KT56wSnyyJINjIYfCPF8xGdxGlermVn2YM5D/Hy+t3VVoH4ou3dbz2onetrYE76zCYxkz8dP7qAUMYagVCeK0A4W7tOx0CwTgrVcv1GsCBx/w30ZzAv5H5lkwoClgV5tmNb2mVRccuEcorwVYAyPr6A9alJFXsS6HO2XhV5US6Ic5Av/57lcH6vo2vJasBUnrVRdqY1+OO4KFdjRiHAeYEDZVDdrRX0BsoUVTPEcvOa23ZRJM9G19OFsYu3qTLr3Zm38KlQwt71tQMHU7n5LicKGNJnbs1iCckCn94bWZzVmcmdO6uMCW68MpQB1ikCkVKJ0mg7c3VkEVm/pzbOAzU9MjjrYAffBYouG6aIikBk8J6XD9j8+lHhgFmBcop+/brpx3Kx9HN+nwBCt7vodYHlwaqYglB6IWn/HPOu2WpFsS0NETji0idVxqhfDpmXfA1tJ2x1HXisNWgM+7l5LGZHTZXy0imGKjuCEKovxR2YnsI1nQeiCBsIpGZWTnTPzG1UjhbsthiEIDbh9wDym+oTb1xy61MuF0dprnqB/FRZ8QEuIMNj/EFZdicXy3gBNwvl46z89R0HKxnNYWIGpUemofPLEQxWpknl0jNPzbS5N9HB7LYg8l3CD4QaTs2YKqc57LjAWLh7vVyZQP/vK3JKkT/7bjy5lw== mbruzek@pandora
   - {path: etc/cni, directory: true}
   - {path: opt/cni, directory: true}
 outputs:
