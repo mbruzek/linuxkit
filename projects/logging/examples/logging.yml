@@ -17,12 +17,12 @@ onboot:
      - CAP_SYS_ADMIN
     readonly: true
   - name: binfmt
-    image: "linuxkit/binfmt:c7e69ebd918a237dd086a5c58dd888df772746bd"
+    image: "linuxkit/binfmt:131026c0cf6084467316395fed3b358f64bda00c"
     binds:
      - /proc/sys/fs/binfmt_misc:/binfmt_misc
     readonly: true
   - name: dhcpcd
-    image: "linuxkit/dhcpcd:48e249ebef6a521eed886b3bce032db69fbb4afa"
+    image: "linuxkit/dhcpcd:2def74ab3f9233b4c09ebb196ba47c27c08b0ed8"
     binds:
      - /var:/var
      - /tmp/etc:/etc
